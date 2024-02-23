@@ -1,0 +1,30 @@
+/* MERN Theme */
+
+// Import utilities
+@import '~bootstrap/scss/bootstrap';
+@import 'core/mixins';
+
+@import 'core/variables';
+@import 'core/overrides';
+
+@import 'core/account';
+@import 'core/address';
+@import 'core/badge';
+@import 'core/brand';
+@import 'core/button';
+@import 'core/cart';
+@import 'core/category';
+@import 'core/layout';
+
+
+
+@import 'core/utils/fonts';
+@import 'core/utils/reset';
+
+// Import Bootstrap source files
+
+// Import core styles
+@import 'core/core';
+
+// Import custom styles
+@import 'custom';
